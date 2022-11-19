@@ -7,11 +7,11 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      {
-        source: '/resume',
-        destination: 'https://ssahibsingh.github.io/l/resume',
-        permanent: false,
-      },
+      // {
+      //   source: '/resume',
+      //   destination: 'https://ssahibsingh.github.io/l/resume',
+      //   permanent: false,
+      // },
       {
         source: '/hello',
         destination: '/#contact',
