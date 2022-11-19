@@ -100,6 +100,12 @@ const experience = [
     },
     {
         key:3,
+        duration: "May 2022 - Nov 2022",
+        position: "Back End Developer",
+        company: "Code8 & ACC"
+    },
+    {
+        key:4,
         duration: "Dec 2021 - Feb 2022",
         position: "Web Developer",
         company: "Tiwana Power Solution"
