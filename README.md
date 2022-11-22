@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="https://ssahibsingh.github.io/">
+    <h2 align="center">Sahib Singh</h2>
+  </a>
+</p> 
+<p align="center">Full Stack Web Developer</p>
 
-## Getting Started
 
-First, run the development server:
+![Sahib Singh Site Preview](./public/website.png)
+
+## :rocket: Quick start
+
+**Run the site locally**
+
+### Step 1: Clone The Repo
+
+Fork the repository. then clone the repo locally by doing -
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/ssahibsingh/ssahibsingh.github.io.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 2: Install Dependencies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+cd into the directory
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+cd ssahibsingh.github.io
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+install all the dependencies
+```bash
+npm install
+```
 
-## Learn More
+### Step 3: Start Development Server
 
-To learn more about Next.js, take a look at the following resources:
+Then start the development Server
+```
+npm run dev
+```
+After running the development server the site should be running on https://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :open_file_folder: What's inside?
 
-## Deploy on Vercel
+A quick look at the folder structure of this project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    .
+    ├── components
+    │   ├───About
+    │   ├───Contact
+    │   ├───Education
+    │   ├───Footer
+    │   ├───Header
+    │   ├───Navbar
+    │   ├───Project
+    │   ├───Skills
+    │   └───index
+    ├── data
+    │   ├───about
+    │   ├───education
+    │   ├───project
+    │   └───skillsExperience
+    ├── pages
+    │   ├───404
+    │   ├───_app
+    │   ├───_document
+    │   ├───index
+    │   └───resume
+    ├── public
+    │   ├───images
+    │   ├───resume.pdf
+    └── styles
+        └───globals.css
