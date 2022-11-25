@@ -73,3 +73,7 @@ A quick look at the folder structure of this project.
     │   ├───resume.pdf
     └── styles
         └───globals.css
+        
+## :innocent: Feedback
+
+If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
