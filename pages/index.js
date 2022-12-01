@@ -28,6 +28,8 @@ export default function Home() {
         <meta property="twitter:title" content="Sahib Singh" />
         <meta property="twitter:description" content="Web Developer || Co-Founder at Gaming Geeks || IT undergrad at NITJ" />
         <meta property="twitter:image" content="./website.png" />
+          
+        <meta name="google-site-verification" content="mzoNw9Qn19gAfDXgZGNJIw4aOhU46Gw2kLTcZPgfH1s" />  
       </Head>
 
       <Navbar />
