@@ -70,8 +70,8 @@ const otherProjects = [
     },
     {
         key: 8,
-        link: "https://github.com/ssahibsingh/blog-website-pub",
-        img: "https://github-readme-stats-ssahibsingh.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website-pub&bg_color=fafafa&border_color=fafafa&border_radius=10"
+        link: "https://github.com/ssahibsingh/blog-website",
+        img: "https://github-readme-stats-ssahibsingh.vercel.app/api/pin/?username=ssahibsingh&repo=blog-website&bg_color=fafafa&border_color=fafafa&border_radius=10"
     },
     {
         key: 9,
