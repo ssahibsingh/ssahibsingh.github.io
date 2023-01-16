@@ -12,10 +12,10 @@ const Project = () => {
                 <div className="container">
                     <h2 className="section__heading">Projects</h2>
                     <div className="project__display">
-                        <div className="row">
+                        <div className="row justify-content-center">
                             {project.map((item, index) => {
                                 return (
-                                    <div key={index} className="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                                    <div key={index} className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 ">
                                         <div className="project__item comp">
                                             <div className="project__item-img">
                                                 <Image
