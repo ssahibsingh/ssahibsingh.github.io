@@ -103,6 +103,12 @@ const skill = [
 
 const experience = [
     {
+        key: 6,
+        duration: "Feb 2022 - Present",
+        position: "Full Stack Web Developer",
+        company: "BT Hustlers"
+    },
+    {
         key: 1,
         duration: "Dec 2022 - Present",
         position: "Mentor",
