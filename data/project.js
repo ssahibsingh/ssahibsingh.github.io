@@ -17,7 +17,7 @@ const project = [
         description: "ProofIt is a platform for organizations to verify documents, which the recipient or any intending third party can verify on the platform itself, that too in just a few clicks.",
         techStack: ['Next.js', 'MongoDB','Express.js', 'Vercel'],
         complete: true,
-        liveDeploy: "https://prooftit.biz/",
+        liveDeploy: "https://proofit.biz/",
     },
     {
         key: 3,
