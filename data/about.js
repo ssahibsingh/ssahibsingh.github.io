@@ -4,11 +4,17 @@ const about = [
         img: require('../public/images/about/nitj-svg.webp'),
         // img:"https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/nitj-svg.png?raw=true",
         name: "NITian",
-        description: "I am a third year student of Information Technology at NIT Jalandhar.",
-        h1: "What I study:",
-        h1Array: ['Information Technology'],
+        description: "Information Technology Undergrad at NIT Jalandhar.",
+        // h1: "What I study:",
+        // h1Array: ['Information Technology'],
         h2: "Things I Do:",
-        h2Array: ['Development', 'Coding', 'Projects', 'Make Friends', 'Networking', 'Mentor Juniors']
+        h2Array: [
+            '📚 Studying',
+            '🚀 Development & Coding',
+            '🤝 Networking',
+            '🌟 Campus Clubs',
+            '🧑‍🏫 Mentoring',
+        ]
     },
     {
         key: 2,
@@ -23,7 +29,7 @@ const about = [
             '🚀 Node.js | Express.js | Flask',
             '🌐 React.js | Next.js | Tailwind | Bootstrap',
             '🔧 VSCode | Postman | Terminal',
-            '☁️ Azure | Digital Ocean | Vercel | Render',
+            '☁️ Azure | DigitalOcean | Vercel | Render',
             '📦 Git | GitHub',
         ]
     },
@@ -32,11 +38,17 @@ const about = [
         img: require('../public/images/about/frontend.webp'),
         // img:"https://github.com/ssahibsingh/personalWebsite/blob/main/src/assets/frontend2.png?raw=true",
         name: "DevOps Enthusiast",
-        description: "I do frontend development to give screen to my backend projects and my imagination.",
-        h1: "Technologies I use:",
-        h1Array: ['HTML', 'CSS', 'Sass', 'JS', 'React.js'],
-        h2: "Dev Tools:",
-        h2Array: ['VSCode', 'Bootstrap', 'Terminal', 'Git', 'Github', 'CodeSandbox', 'Vercel']
+        description: "Bridging code and infrastructure for seamless software delivery.",
+        // h1: "Technologies I use:",
+        // h1Array: ['HTML', 'CSS', 'Sass', 'JS', 'React.js'],
+        h2: "Tool Set:",
+        h2Array: [
+            '🔍 Docker | Shell Scripting',
+            '🚀 GitHub Actions',
+            '🔧 VSCode | Termius',
+            '☁️ Azure | DigitalOcean',
+            '📦 Git | GitHub',
+        ]
     }
 ]
 
