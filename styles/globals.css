@@ -553,6 +553,11 @@ img {
   transform: translateY(-0.6%);
 }
 
+.about__item-details{
+  width: 90%;
+  margin: auto;
+}
+
 .about__item-details h5 {
   color: var(--black);
   font-size: 17px;

@@ -24,7 +24,7 @@ const About = () => {
                                             alt={item.name}
                                             width={150}
                                             height={150}
-                                            styles={{width: 'auto', height: 'auto'}}
+                                            styles={{ width: 'auto', height: 'auto' }}
                                         />
                                     </div>
                                     <div className="about__item-content">
@@ -34,11 +34,15 @@ const About = () => {
                                                 <p>{item.description}</p>
                                             </div>
                                             <div className="about__item-details">
-                                                <div className="about__item-section-1 text-center">
-                                                    <h5>{item.h1}</h5>
-                                                    <p>{item.h1Array.join(', ')}</p>
-                                                </div>
-                                                <div className="about__item-section-2 text-center">
+                                                {item.h1 ? (
+                                                    <>
+                                                        <div className="about__item-section-1">
+                                                            <h5>{item.h1}</h5>
+                                                            <p>{item.h1Array.join(', ')}</p>
+                                                        </div>
+                                                    </>
+                                                ) : (<></>)}
+                                                <div className="about__item-section-2">
                                                     <h5>{item.h2}</h5>
                                                     <ul>
                                                         {
