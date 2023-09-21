@@ -1,10 +1,27 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import projectData from '../data/project'
+import { Button } from '@cred/neopop-web/lib/components'
 
 const Project = () => {
     const { project, otherProjects } = projectData
+
+    const [projectCount, setProjectCount] = useState(9)
+
+    const [isOver, setIsOver] = useState(false);
+
+    const colorConfig = {
+        backgroundColor: 'var(--primary)',
+        borderColor: 'var(--secondary)',
+        edgeColors: {
+            left: 'transparent',
+            top: 'transparent',
+            right: 'var(--black)',
+            bottom: 'var(--black)'
+        },
+        color: 'var(--black)'
+    }
 
     return (
         <>
@@ -62,17 +79,25 @@ const Project = () => {
                                                 <div className="project__item-links">
                                                     {item.complete ? (
                                                         <>
-                                                            {item.liveDeploy && (
-                                                                <div className="project__item-links-item live">
-                                                                    <Link href={item.liveDeploy} target="_blank" rel="noreferrer" aria-label="Live Deployment">Live Deployment <i className="fas fa-external-link-alt"></i></Link>
-                                                                </div>
-                                                            )}
+                                                            <div className='d-flex gap-2'>
+                                                                {item.liveDeploy && (
+                                                                    <div className="project__item-links-item live">
+                                                                        <Link href={item.liveDeploy} target="_blank" rel="noreferrer" aria-label="Live Deployment">Live Deployment <i className="fas fa-external-link-alt"></i></Link>
+                                                                    </div>
+                                                                )}
 
-                                                            {item.sourceCode && (
-                                                                <div className="project__item-links-item code">
-                                                                    <Link href={item.sourceCode} target="_blank" rel="noreferrer" aria-label="Source Code">Source Code <i className="fa-brands fa-github"></i></Link>
-                                                                </div>
-                                                            )}
+                                                                {item.sourceCode && (
+                                                                    <div className="project__item-links-item code">
+                                                                        <Link href={item.sourceCode} target="_blank" rel="noreferrer" aria-label="Source Code">{item.sourceCodeName} <i className="fa-brands fa-github"></i></Link>
+                                                                    </div>
+                                                                )}
+
+                                                                {item.sourceCode2 && (
+                                                                    <div className="project__item-links-item code">
+                                                                        <Link href={item.sourceCode} target="_blank" rel="noreferrer" aria-label="Source Code">{item.sourceCodeName2} <i className="fa-brands fa-github"></i></Link>
+                                                                    </div>
+                                                                )}
+                                                            </div>
                                                         </>
                                                     ) : (
                                                         <>
@@ -95,7 +120,7 @@ const Project = () => {
                             <div className="row justify-content-center">
                                 {
                                     React.Children.toArray(
-                                        otherProjects.map(({ link, img }) => {
+                                        otherProjects.slice(0, projectCount).map(({ link, img }) => {
                                             return (
                                                 <>
                                                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 py-3 text-center">
@@ -114,6 +139,27 @@ const Project = () => {
                                         })
                                     )
                                 }
+
+                            </div>
+                            <div className='text-center'>
+                                {projectCount === otherProjects.length ? (<></>) :
+                                    (
+                                        <>
+                                            <Button
+                                                onMouseOver={() => { setIsOver(true) }}
+                                                onMouseOut={() => { setIsOver(false) }}
+                                                colorConfig={colorConfig}
+                                                className={isOver && "active"}
+                                                variant="primary"
+                                                kind="elevated"
+                                                size="medium"
+                                                colorMode="dark"
+                                                onClick={() => setProjectCount(otherProjects.length)}
+                                            >
+                                                Load More
+                                            </Button>
+                                        </>
+                                    )}
                             </div>
                         </div>
                     </div>
