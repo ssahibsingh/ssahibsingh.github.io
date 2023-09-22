@@ -5,20 +5,35 @@ const nextConfig = {
     unoptimized: true,
     domains: ['github.com', 'github-readme-stats.vercel.app'],
   },
-  async redirects() {
+  async headers() {
     return [
-      // {
-      //   source: '/resume',
-      //   destination: 'https://ssahibsingh.github.io/l/resume',
-      //   permanent: false,
-      // },
       {
-        source: '/hello',
-        destination: '/#contact',
-        permanent: false,
-      },
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: 'frame-ancestors \'none\'; default-src https: data: \'unsafe-inline\' \'unsafe-eval\'',
+          },
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=31536000; includeSubDomains; preload',
+          }
+        ]
+      }
     ]
-  },
+  }
 }
 
 module.exports = nextConfig
