@@ -1,149 +1,140 @@
 const skill = [
     {
-        key: 9,
+        key: 1,
         skill: "devicon-javascript-plain colored"
     },
     {
-        key: 1,
+        key: 2,
         skill: "devicon-c-plain-wordmark colored"
     },
     {
-        key: 2,
+        key: 3,
         skill: "devicon-cplusplus-plain colored"
     },
     {
-        key: 3,
+        key: 4,
         skill: "devicon-python-plain-wordmark colored"
     },
     {
-        key: 4,
+        key: 5,
         skill: "devicon-java-plain-wordmark colored"
     },
     {
-        key: 25,
+        key: 6,
         skill: "devicon-markdown-original colored"
     },
     {
-        key: 6,
+        key: 7,
         skill: "devicon-html5-plain-wordmark colored"
     },
     {
-        key: 7,
+        key: 8,
         skill: "devicon-css3-plain-wordmark colored"
     },
     {
-        key: 11,
+        key: 9,
         skill: "devicon-bootstrap-plain-wordmark colored"
     },
     {
-        key: 25,
+        key: 10,
         skill: "devicon-tailwindcss-original-wordmark colored"
     },
     {
-        key: 8,
+        key: 11,
         skill: "devicon-sass-original colored"
     },
     {
-        key: 10,
+        key: 12,
         skill: "devicon-jquery-plain-wordmark colored"
     },
     {
-        key: 12,
+        key: 13,
         skill: "devicon-nodejs-plain-wordmark colored"
     },
     {
-        key: 13,
+        key: 14,
         skill: "devicon-express-original-wordmark colored"
     },
     {
-        key: 14,
+        key: 15,
         skill: "devicon-react-original-wordmark colored"
     },
     {
-        key: 15,
+        key: 16,
         skill: "devicon-nextjs-original-wordmark colored"
     },
     {
-        key: 16,
+        key: 17,
         skill: "devicon-redux-original colored"
     },
     {
-        key: 17,
+        key: 18,
         skill: "devicon-babel-plain colored"
     },
     {
-        key: 5,
+        key: 19,
         skill: "devicon-selenium-original colored"
     },
     {
-        key: 18,
+        key: 20,
         skill: "devicon-flask-original-wordmark colored"
     },
     {
-        key: 19,
-        skill: "devicon-graphql-plain-wordmark colored"
-    },
-    {
-        key: 20,
-        skill: "devicon-mysql-plain-wordmark colored"
-    },
-    {
         key: 21,
-        skill: "devicon-mongodb-plain-wordmark colored"
-    },
-    {
-        key: 22,
-        skill: "devicon-docker-plain-wordmark colored"
-    },
-    {
-        key: 23,
-        skill: "devicon-azure-plain-wordmark colored"
-    },
-    {
-        key: 24,
-        skill: "devicon-digitalocean-plain-wordmark colored"
-    },
-    {
-        key: 22,
-        skill: "devicon-heroku-plain-wordmark colored"
-    },
-    {
-        key: 23,
-        skill: "devicon-git-plain-wordmark colored"
-    },
-    {
-        key: 24,
-        skill: "devicon-github-original-wordmark colored"
-    },
-    {
-        key: 25,
-        skill: "devicon-canva-original colored"
-    },
-    {
-        key: 25,
-        skill: "devicon-ubuntu-plain-wordmark colored"
-    },
-    {
-        key: 25,
-        skill: "devicon-nginx-original colored"
-    },
-
-    {
-        key: 25,
-        skill: "devicon-linux-plain colored"
-    },
-    {
-        key: 25,
         skill: "devicon-jupyter-plain-wordmark colored"
     },
     {
-        key: 34,
+        key: 22,
+        skill: "devicon-graphql-plain-wordmark colored"
+    },
+    {
+        key: 23,
+        skill: "devicon-mongodb-plain-wordmark colored"
+    },
+    {
+        key: 24,
+        skill: "devicon-mysql-plain-wordmark colored"
+    },
+    {
+        key: 25,
+        skill: "devicon-docker-plain-wordmark colored"
+    },
+    {
+        key: 26,
+        skill: "devicon-nginx-original colored"
+    },
+    {
+        key: 27,
+        skill: "devicon-ubuntu-plain-wordmark colored"
+    },
+    {
+        key: 28,
+        skill: "devicon-linux-plain colored"
+    },
+    {
+        key: 29,
+        skill: "devicon-azure-plain-wordmark colored"
+    },
+    {
+        key: 30,
+        skill: "devicon-digitalocean-plain-wordmark colored"
+    },
+    {
+        key: 31,
+        skill: "devicon-git-plain-wordmark colored"
+    },
+    {
+        key: 32,
+        skill: "devicon-github-original-wordmark colored"
+    },
+    {
+        key: 33,
         skill: "devicon-jira-plain-wordmark colored"
     },
     {
-        key: 35,
+        key: 34,
         skill: "devicon-jest-plain colored"
-    }
+    },
 ]
 
 const experience = [
@@ -151,7 +142,7 @@ const experience = [
         key: 6,
         duration: "Feb 2022 - Present",
         position: "Full Stack Web Developer",
-        company: "BT Hustlers"
+        company: "Medlr"
     },
     {
         key: 1,
