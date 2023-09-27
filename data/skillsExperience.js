@@ -112,6 +112,26 @@ const skill = [
     //     skill: "devicon-canva-original colored"
     // }
     {
+        key: 25,
+        skill: "devicon-nginx-original colored"
+    },
+    {
+        key: 25,
+        skill: "devicon-markdown-original colored"
+    },
+    {
+        key: 25,
+        skill: "devicon-linux-plain colored"
+    },
+    {
+        key: 25,
+        skill: "devicon-jupyter-plain-wordmark colored"
+    },
+    {
+        key: 34,
+        skill: "devicon-jira-plain-wordmark colored"
+    },
+    {
         key: 35,
         skill: "devicon-jest-plain colored"
     }
