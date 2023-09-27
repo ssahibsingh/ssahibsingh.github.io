@@ -85,19 +85,35 @@ const skill = [
     },
     {
         key: 22,
-        skill: "devicon-heroku-plain-wordmark colored"
+        skill: "devicon-docker-plain-wordmark colored"
     },
     {
         key: 23,
-        skill: "devicon-git-plain-wordmark colored"
+        skill: "devicon-azure-plain-wordmark colored"
     },
     {
         key: 24,
-        skill: "devicon-github-original-wordmark colored"
+        skill: "devicon-digitalocean-plain-wordmark colored"
     },
+    // {
+    //     key: 22,
+    //     skill: "devicon-heroku-plain-wordmark colored"
+    // },
+    // {
+    //     key: 23,
+    //     skill: "devicon-git-plain-wordmark colored"
+    // },
+    // {
+    //     key: 24,
+    //     skill: "devicon-github-original-wordmark colored"
+    // },
+    // {
+    //     key: 25,
+    //     skill: "devicon-canva-original colored"
+    // }
     {
-        key: 25,
-        skill: "devicon-canva-original colored"
+        key: 35,
+        skill: "devicon-jest-plain colored"
     }
 ]
 
