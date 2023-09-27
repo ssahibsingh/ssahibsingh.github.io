@@ -1,5 +1,9 @@
 const skill = [
     {
+        key: 9,
+        skill: "devicon-javascript-plain colored"
+    },
+    {
         key: 1,
         skill: "devicon-c-plain-wordmark colored"
     },
@@ -30,10 +34,6 @@ const skill = [
     {
         key: 8,
         skill: "devicon-sass-original colored"
-    },
-    {
-        key: 9,
-        skill: "devicon-javascript-plain colored"
     },
     {
         key: 10,
@@ -111,6 +111,14 @@ const skill = [
     //     key: 25,
     //     skill: "devicon-canva-original colored"
     // }
+    {
+        key: 25,
+        skill: "devicon-ubuntu-plain-wordmark colored"
+    },
+    {
+        key: 25,
+        skill: "devicon-tailwindcss-original-wordmark colored"
+    },
     {
         key: 25,
         skill: "devicon-nginx-original colored"
