@@ -24,7 +24,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: github-readme-stats.vercel.app github.com; object-src 'none'; require-trusted-types-for 'script'; base-uri 'none'; frame-ancestors 'none';",
+            value: "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: github-readme-stats.vercel.app github.com; object-src 'none'; frame-ancestors 'none';",
           },
           {
             key: 'Strict-Transport-Security',
