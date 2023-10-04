@@ -24,11 +24,19 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: 'frame-ancestors \'none\'; default-src https: data: \'unsafe-inline\' \'unsafe-eval\'',
+            value: "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: github-readme-stats.vercel.app github.com;",
           },
           {
             key: 'Strict-Transport-Security',
             value: 'max-age=31536000; includeSubDomains; preload',
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+          {
+            key: 'Cross-Origin-Embedder-Policy',
+            value: 'COEP require-corp',
           }
         ]
       }
