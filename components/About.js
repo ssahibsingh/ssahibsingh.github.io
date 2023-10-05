@@ -47,11 +47,7 @@ const About = () => {
                                                     <ul>
                                                         {
                                                             React.Children.toArray(
-                                                                item.h2Array.map((item2) => {
-                                                                    return (
-                                                                        <li>{item2}</li>
-                                                                    )
-                                                                })
+                                                                item.h2Array.map((item2, index) => (<li key={index}>{item2}</li>))
                                                             )
                                                         }
                                                     </ul>

@@ -27,6 +27,10 @@ const Contact = () => {
           setError("true");
         }
         onSubmitProps.setSubmitting(false);
+      })
+      .catch((error) => {
+        setError("true");
+        onSubmitProps.setSubmitting(false);
       });
     onSubmitProps.resetForm();
   };
