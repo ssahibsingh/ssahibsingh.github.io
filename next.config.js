@@ -24,7 +24,7 @@ const nextConfig = {
           },
           // {
           //   key: 'Content-Security-Policy',
-          //   value: "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://fonts.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: github-readme-stats.vercel.app github.com;",
+          //   value: "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net http://localhost; style-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com http://localhost; font-src 'self' https://fonts.gstatic.com http://localhost; img-src 'self' data: github-readme-stats.vercel.app github.com localhost;",
           // },
           {
             key: 'Strict-Transport-Security',
