@@ -140,9 +140,15 @@ const skill = [
 const experience = [
     {
         key: 6,
-        duration: "Feb 2022 - Present",
+        duration: "Feb 2023 - Present",
         position: "Full Stack Web Developer",
-        company: "Medlr"
+        company: "Medlr, Mohali, India"
+    },
+    {
+        key: 7,
+        duration: "May 2023 - July 2023",
+        position: "Software Development Intern",
+        company: "ATC Couriers, Yagoona, Australia"
     },
     {
         key: 1,
@@ -160,13 +166,13 @@ const experience = [
         key: 3,
         duration: "Aug 2021 - Dec 2022",
         position: "Web Developer",
-        company: "Anaitik"
+        company: "Anaitik, Mohali, India"
     },
     {
         key: 4,
         duration: "May 2022 - Nov 2022",
         position: "Back End Developer",
-        company: "Code8 & ACC"
+        company: "Code8 & ACC, Noida, India"
     },
     {
         key: 5,
