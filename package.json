@@ -10,15 +10,16 @@
   },
   "dependencies": {
     "@cred/neopop-web": "^1.0.0",
-    "axios": "^1.6.0",
+    "axios": "^1.6.7",
     "bootstrap": "^5.2.2",
-    "eslint": "8.27.0",
-    "eslint-config-next": "13.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0",
     "formik": "^2.2.9",
-    "next": "13.0.3",
+    "next": "^13.5.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "sharp": "^0.33.2",
     "validator": "^13.7.0"
   }
 }
