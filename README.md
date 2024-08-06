@@ -1,14 +1,19 @@
-<p align="center">
-  <a href="https://ssahibsingh.github.io/">
-    <h2 align="center">Sahib Singh</h2>
-  </a>
-</p> 
-<p align="center">Full Stack Web Developer</p>
+# Portfolio
+
+This is a personal portfolio website created using Next.js, ShadCN UI, and Tailwind CSS. It showcases my skills, projects, experience, and education.
+
+## Demo
+
+You can view the live site [here](https://ssahibsingh.github.io/)
+
+## 🛠️ Built With
+
+- Next.js
+- ShadCN UI
+- Tailwind CSS
 
 
-![Sahib Singh Site Preview](./public/website.png)
-
-## :rocket: Quick start
+## 🚀 Quick start
 
 **Run the site locally**
 
@@ -41,39 +46,6 @@ npm run dev
 ```
 After running the development server the site should be running on https://localhost:3000
 
-
-## :open_file_folder: What's inside?
-
-A quick look at the folder structure of this project.
-
-    .
-    ├── components
-    │   ├───About
-    │   ├───Contact
-    │   ├───Education
-    │   ├───Footer
-    │   ├───Header
-    │   ├───Navbar
-    │   ├───Project
-    │   ├───Skills
-    │   └───index
-    ├── data
-    │   ├───about
-    │   ├───education
-    │   ├───project
-    │   └───skillsExperience
-    ├── pages
-    │   ├───404
-    │   ├───_app
-    │   ├───_document
-    │   ├───index
-    │   └───resume
-    ├── public
-    │   ├───images
-    │   ├───resume.pdf
-    └── styles
-        └───globals.css
-        
-## :innocent: Feedback
+## 🗨️ Feedback
 
 If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
