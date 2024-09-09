@@ -224,9 +224,9 @@ export default function Page() {
                   <div className="flex gap-5 flex-wrap">
                     {Object.entries(DATA.contact.social)
                       .filter(([_, social]) => social.contact)
-                      .map(([name, social]) => (
+                      .map(([name, social], index) => (
                         <>
-                          <Tooltip>
+                          <Tooltip key={index}>
                             <TooltipTrigger asChild>
                               <Link href={social.url as unknown as UrlObject}>
                                 <social.icon className="size-7" />

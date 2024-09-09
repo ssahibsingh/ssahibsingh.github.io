@@ -100,6 +100,19 @@ export const DATA = {
   },
   work: [
     {
+      company: "Aeiota Solutions",
+      href: "",
+      badges: ["Noida", "India"],
+      location: "Noida",
+      title: "Software Developer",
+      icon: false,
+      logoUrl: "/experience/aeiota.png",
+      start: "Aug 2024",
+      end: "Present",
+      description:
+        " ",
+    },
+    {
       company: "Medlr",
       href: "",
       badges: ["Remote", "India"],
@@ -134,7 +147,7 @@ export const DATA = {
       icon: false,
       logoUrl: "/experience/codeate.png",
       start: "May 2022",
-      end: "November 2022",
+      end: "Nov 2022",
       description:
         "Built backend for a quiz app using OpenTDB REST API, facilitating seamless data integration with the frontend. Optimized data formatting and fetching processes, and Scaled system capacity by 2.5x of existing capacity, surpassing project requirements and ensuring future scalability.",
     },
