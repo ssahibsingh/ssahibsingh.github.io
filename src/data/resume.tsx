@@ -46,7 +46,7 @@ export const DATA = {
     { href: "#experience", icon: BriefcaseBusiness, label: "Experience" },
     { href: "#education", icon: GraduationCap, label: "Education" },
     {
-      href: "https://sahibsingh.hashnode.dev",
+      href: "https://blog.sahibsingh.dev",
       icon: NotebookIcon,
       label: "Blog",
     },
@@ -77,7 +77,7 @@ export const DATA = {
       },
       Hashnode: {
         name: "Hashnode",
-        url: "https://sahibsingh.hashnode.dev/",
+        url: "https://blog.sahibsingh.dev",
         icon: Icons.hashnode,
         contact: false,
         navbar: false,
@@ -100,17 +100,30 @@ export const DATA = {
   },
   work: [
     {
+      company: "BrowserStack",
+      href: "",
+      badges: ["Remote", "India"],
+      location: "Mumbai",
+      title: "Software Engineer - Backend",
+      icon: false,
+      logoUrl: "/experience/browserstack.png",
+      start: "Sept 2024",
+      end: "Present",
+      description: `*Embarked on a new journey at BrowserStack, where backend innovation meets global scale — ready to build what's next!*`,
+    },
+    {
       company: "Aeiota Solutions",
       href: "",
       badges: ["Noida", "India"],
       location: "Noida",
-      title: "Software Developer",
+      title: "Software Developer - Backend",
       icon: false,
       logoUrl: "/experience/aeiota.png",
       start: "Aug 2024",
-      end: "Present",
-      description:
-        " ",
+      end: "Sept 2024",
+      description: `* Developed new RESTful APIs in C# with integrated SQL Server stored procedures, enhancing backend functionality. 
+        \n* Built a service for calendar event integration via ICS files, benefiting 100+ users. 
+        \n* Built and implemented a frontend dashboard from scratch using Next.js, Auth.js, and Tailwind, ensuring seamless integration with backend services for improved user experience.`,
     },
     {
       company: "Medlr",
@@ -123,7 +136,7 @@ export const DATA = {
       start: "Feb 2023",
       end: "Jan 2024",
       description:
-        "Implemented Elasticsearch to enhance search capabilities. Developed and integrated custom and OAuth authentication flows, enhancing security and user access control. Strengthened data protection and reduced vulnerabilities by 20% through advanced security measures. Optimized deployment pipeline with NGINX, Docker, and GitHub Actions, resulting in a 25% faster deployment process and efficient management across multiple environments.",
+        "* Implemented Elasticsearch to enhance search capabilities. \n* Developed and integrated custom and OAuth authentication flows, enhancing security and user access control. \n* Strengthened data protection and reduced vulnerabilities by 20% through advanced security measures. \n* Optimized deployment pipeline with NGINX, Docker, and GitHub Actions, resulting in a 25% faster deployment process and efficient management across multiple environments.",
     },
     {
       company: "ATC Couriers",
@@ -136,7 +149,7 @@ export const DATA = {
       start: "May 2023",
       end: "July 2023",
       description:
-        "Developed backend logic and APIs to streamline booking and data management. Converted Figma designs into interactive interfaces, improving user experience. Implemented dynamic features and auto-completion, ensuring robust data handling.",
+        "* Developed backend logic and APIs to streamline booking and data management. \n* Converted Figma designs into interactive interfaces, improving user experience. \n* Implemented dynamic features and auto-completion, ensuring robust data handling.",
     },
     {
       company: "Code8 & ACC",
@@ -149,7 +162,7 @@ export const DATA = {
       start: "May 2022",
       end: "Nov 2022",
       description:
-        "Built backend for a quiz app using OpenTDB REST API, facilitating seamless data integration with the frontend. Optimized data formatting and fetching processes, and Scaled system capacity by 2.5x of existing capacity, surpassing project requirements and ensuring future scalability.",
+        "* Built backend for a quiz app using OpenTDB REST API, facilitating seamless data integration with the frontend.\n* Optimized data formatting and fetching processes, and Scaled system capacity by 2.5x of existing capacity, surpassing project requirements and ensuring future scalability.",
     },
   ],
   education: [
